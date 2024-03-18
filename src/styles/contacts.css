@@ -1,1 +1,31 @@
+.person-icon {
+    max-width: 100px;
+    padding-left: 80px;
+    padding-top: 30px;
+    /* Eliminamos el padding-left y padding-top para centrar el icono verticalmente */
+}
 
+.small-contact-card {
+    max-height: 180px;
+}
+
+.small-contact-card .card-body {
+    font-size: 1rem;
+}
+
+.small-contact-card .card-body h2 {
+    font-size: 2rem;
+}
+
+.small-contact-card .card-body h3 {
+    font-size: 1.5rem;
+
+}
+
+.small-contact-card .card-body h4 {
+    font-size: 1rem;
+}
+
+.container-texto-iconos {
+    gap: 350Px;
+}

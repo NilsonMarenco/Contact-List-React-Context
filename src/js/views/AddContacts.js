@@ -29,7 +29,7 @@ export const AddContacts = () => {
     }
     
     return (
-        <div className="container">
+        <div className="container-add-contacts">
             <div className="row justify-content-center">
                 <div className="col-6">
                     <form onSubmit={handleSubmit}>

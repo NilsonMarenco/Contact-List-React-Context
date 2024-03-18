@@ -40,7 +40,7 @@ export const EditContact = () => {
     };
 
     return (
-        <div className="container">
+        <div className="container-edit-contact">
             <div className="row justify-content-center">
                 <div className="col-6">
                     <form onSubmit={handleSubmit} className="mt-5">

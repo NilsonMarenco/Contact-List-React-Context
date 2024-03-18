@@ -16,10 +16,8 @@ export const Home = () => {
     return (
         <div className="text-center mt-5">
             {redirectToContacts ? (
-                // Redirigir a la página de contactos si hay contactos cargados
                 <Navigate to="/contacts" />
             ) : (
-                // Renderizar el contenido de la página de inicio
                 <>
                     <h1>My Contact List!</h1>
                     <p>Welcome to your contact list. Here you can manage your contacts.</p>
